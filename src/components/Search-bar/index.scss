@@ -1,0 +1,39 @@
+.repo-search-wrapper {
+    width: 20vw;
+
+    .hr {
+        width: 67vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10 auto;
+    }
+}
+
+.repo-search {
+    width: 30vw;
+}
+
+.repo-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.repo-items {
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color:#1c2129;
+    transition: all .3s ease;
+    cursor: pointer;
+    font-weight: 900px;
+    display: flex;
+
+    &:hover {
+        background-color: #454545;
+        border: 1px solid white;
+    }
+}
+
